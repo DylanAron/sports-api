@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "D:\\workspace\\sports\\sports-api"],
+      "port": 3000
+    }
+  ]
+}
