@@ -24,7 +24,7 @@ public class ContentService {
 
     public String getAboutContent() {
         return "<h2>关于我们</h2>" +
-                "<p>Sports World 是一款专注于体育赛事数据分析和AI智能预测的移动应用。我们致力于为体育爱好者提供专业、准确的赛事数据服务和智能预测参考。</p>" +
+                "<p>火箭体育 是一款专注于体育赛事数据分析和AI智能预测的移动应用。我们致力于为体育爱好者提供专业、准确的赛事数据服务和智能预测参考。</p>" +
                 "<br/><h3>我们的使命</h3>" +
                 "<p>让每一位体育爱好者都能享受到专业级的数据分析服务，用科技的力量提升观赛体验。</p>" +
                 "<br/><h3>核心功能</h3>" +
@@ -35,8 +35,7 @@ public class ContentService {
                 "<li><strong>数据分析</strong> — 专业的球队和球员数据统计分析</li>" +
                 "</ul>" +
                 "<br/><h3>联系我们</h3>" +
-                "<p>邮箱：support@sportsworld.com</p>" +
-                "<p>客服电话：400-888-8888</p>" +
+                "<p>邮箱：420361196@qq.com</p>" +
                 "<br/><p style=\"color: #999; font-size: 12px;\">Sports World v1.0.0</p>";
     }
 }
