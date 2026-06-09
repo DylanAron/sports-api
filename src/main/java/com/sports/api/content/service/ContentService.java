@@ -36,6 +36,6 @@ public class ContentService {
                 "</ul>" +
                 "<br/><h3>联系我们</h3>" +
                 "<p>邮箱：420361196@qq.com</p>" +
-                "<br/><p style=\"color: #999; font-size: 12px;\">Sports World v1.0.0</p>";
+                "<br/><p style=\"color: #999; font-size: 12px;\">火箭体育 v1.0.0</p>";
     }
 }
