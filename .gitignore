@@ -41,6 +41,17 @@ nbdist/
 *.xml.versionsBackup
 *.swp
 
+# Node.js（此项目为 Java/Maven，不依赖 npm）
+node_modules/
+package.json
+package-lock.json
+
+# AES 密钥持久化文件
+.data/
+
+# 非代码文档
+docs/
+
 !*/build/*.java
 !*/build/*.html
 !*/build/*.xml

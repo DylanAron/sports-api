@@ -20,3 +20,9 @@ mybatis-plus:
 jwt:
   secret: sports-api-secret-key-2024-please-change-in-production-environment
   expiration: 604800000
+
+# 百度归因
+baidu:
+  apptrack:
+    app-id: 22870
+    app-secret: ${BAIDU_APPTRACK_SECRET:dev-app-secret-placeholder}

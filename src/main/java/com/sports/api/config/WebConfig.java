@@ -27,7 +27,9 @@ public class WebConfig implements WebMvcConfigurer {
                         "/api/score/**",
                         "/api/win-lose/**",
                         "/api/intelligence/**",
-                        "/api/analysis/**"
+                        "/api/analysis/**",
+                        "/api/attribution/callback",
+                        "/api/app/config"
                 );
     }
 }
