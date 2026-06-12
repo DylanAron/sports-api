@@ -38,7 +38,8 @@ public class EncryptionFilter implements Filter {
         String path = httpRequest.getRequestURI();
 
         // 配置接口和百度回调走明文
-        if (path.contains("/api/app/config") || path.contains("/api/attribution/callback")) {
+        if (path.contains("/api/app/config") || path.contains("/api/attribution/callback")
+                || path.contains("/api/content/banners") || path.contains("/api/content/tab-guides")) {
             chain.doFilter(request, response);
             return;
         }
