@@ -22,8 +22,9 @@ jwt:
 baidu:
   apptrack:
     app-id: 22870
-    app-secret: ${BAIDU_APPTRACK_SECRET}
+    app-secret: 0ce63b2c2dee0b50c6664c6d7b7e166c
+
 
 # AES 加密（生产环境从环境变量获取）
 sports:
-  aes-key: ${SPORTS_AES_KEY}
+  aes-key: ${SPORTS_AES_KEY:NWbIx5ZfyLQiaGfoHQcGmT09S352so7Gf8azjlTHmFw=}
