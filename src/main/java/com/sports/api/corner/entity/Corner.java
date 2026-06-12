@@ -24,7 +24,7 @@ public class Corner {
     private String awayName;
 
     private String recommendContent;
-
+    private String result;
     private Integer isTodayData;
 
     private Integer isHit;

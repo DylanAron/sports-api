@@ -16,6 +16,7 @@ public class Goal {
     private String awayLogo;
     private String awayName;
     private String recommendContent;
+    private String result;
     private Integer isTodayData;
     private Integer isHit;
     private LocalDateTime matchDate;

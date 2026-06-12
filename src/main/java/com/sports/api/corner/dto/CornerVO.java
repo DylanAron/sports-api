@@ -15,6 +15,7 @@ public class CornerVO {
     private String awayLogo;
     private String awayName;
     private String recommendContent;
+    private String result;
     private Integer isTodayData;
     private Integer isHit;
     private LocalDateTime matchDate;
@@ -29,6 +30,7 @@ public class CornerVO {
         vo.setAwayLogo(entity.getAwayLogo());
         vo.setAwayName(entity.getAwayName());
         vo.setRecommendContent(entity.getRecommendContent());
+        vo.setResult(entity.getResult());
         vo.setIsTodayData(entity.getIsTodayData());
         vo.setIsHit(entity.getIsHit());
         vo.setMatchDate(entity.getMatchDate());
