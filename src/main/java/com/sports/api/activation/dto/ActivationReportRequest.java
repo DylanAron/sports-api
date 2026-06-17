@@ -13,4 +13,10 @@ public class ActivationReportRequest {
 
     @NotBlank(message = "包ID不能为空")
     private String packageId;
+
+    /** OAID（开放匿名设备标识） */
+    private String oaid;
+
+    /** 客户端公网 IP */
+    private String ip;
 }

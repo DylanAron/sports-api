@@ -22,12 +22,15 @@ public class ActivationServiceImpl extends ServiceImpl<AppActivationMapper, AppA
         activation.setDeviceId(request.getDeviceId());
         activation.setMarketId(request.getMarketId() != null ? request.getMarketId() : 1);
         activation.setPackageId(request.getPackageId());
+        activation.setOaid(request.getOaid());
+        activation.setIp(request.getIp());
         activation.setReportTime(LocalDateTime.now());
 
         try {
             baseMapper.insert(activation);
-            log.info("Activation recorded: deviceId={}, marketId={}, packageId={}",
-                    request.getDeviceId(), activation.getMarketId(), request.getPackageId());
+            log.info("Activation recorded: deviceId={}, marketId={}, packageId={}, oaid={}, ip={}",
+                    request.getDeviceId(), activation.getMarketId(), request.getPackageId(),
+                    request.getOaid(), request.getIp());
         } catch (DuplicateKeyException e) {
             log.info("Duplicate activation ignored: deviceId={}", request.getDeviceId());
         }

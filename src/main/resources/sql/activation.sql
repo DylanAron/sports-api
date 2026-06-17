@@ -4,6 +4,8 @@ CREATE TABLE IF NOT EXISTS `t_app_activation` (
     `device_id`   varchar(128) NOT NULL COMMENT '设备ID (ANDROID_ID / IDFV)',
     `market_id`   tinyint      NOT NULL DEFAULT 1 COMMENT '市场ID: 1=百度 2=华为 3=小米 4=应用宝 5=Oppo 6=Vivo 7=360 99=其他',
     `package_id`  varchar(64)  NOT NULL COMMENT '渠道包ID（16位随机字母数字，每个版本固定）',
+    `oaid`        varchar(128) DEFAULT NULL COMMENT 'OAID（开放匿名设备标识）',
+    `ip`          varchar(64)  DEFAULT NULL COMMENT '客户端公网IP',
     `report_time` datetime     NOT NULL COMMENT '激活上报时间',
     `create_time` datetime     NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
     `update_time` datetime     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
